@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Microsoft Windows [Version 10.0.22631.5413]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -99,107 +98,151 @@ To https://github.com/swetha1818/JavaProject1.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>
-=======
-Microsoft Windows [Version 10.0.22631.5413]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\PRABHAKARAN.V>git config --list
-diff.astextplain.textconv=astextplain
-filter.lfs.clean=git-lfs clean -- %f
-filter.lfs.smudge=git-lfs smudge -- %f
-filter.lfs.process=git-lfs filter-process
-filter.lfs.required=true
-http.sslbackend=schannel
-core.autocrlf=true
-core.fscache=true
-core.symlinks=false
-pull.rebase=false
-credential.helper=manager
-credential.https://dev.azure.com.usehttppath=true
-init.defaultbranch=master
-user.name=swetha
-user.email=swetha180703@gamil.com
-core.repositoryformatversion=0
-core.filemode=false
-core.bare=false
-core.logallrefupdates=true
-core.symlinks=false
-core.ignorecase=true
-remote.origin.url=https://github.com/swetha1818/ProjectOne.git
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-branch.main.remote=origin
-branch.main.merge=refs/heads/main
-
-C:\Users\PRABHAKARAN.V>mkdir java
-
-C:\Users\PRABHAKARAN.V>cd Tester
-
-C:\Users\PRABHAKARAN.V\Tester>git clone https://github.com/swetha1818/JavaProject1.git
-fatal: destination path 'JavaProject1' already exists and is not an empty directory.
-
-C:\Users\PRABHAKARAN.V\Tester>git status
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        JavaProject/
-        JavaProject1/
-        Project/
-        ProjectOne/
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-C:\Users\PRABHAKARAN.V\Tester>cd JavaProject1
-
 C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git status
 On branch main
+Your branch is up to date with 'origin/main'.
 
-No commits yet
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git.txt
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        Git.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git add.
-git: 'add.' is not a git command. See 'git --help'.
-
-The most similar command is
-        add
+no changes added to commit (use "git add" and/or "git commit -a")
 
 C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git add .
 
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git commit -m "Git Project"
-[main (root-commit) eda3bd0] Git Project
- 1 file changed, 4 insertions(+)
- create mode 100644 Git.txt
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.99 KiB | 408.00 KiB/s, done.
+From https://github.com/swetha1818/JavaProject1
+   eda3bd0..fb0218d  main       -> origin/main
+Updating eda3bd0..fb0218d
+error: Your local changes to the following files would be overwritten by merge:
+        Git.txt
+Please commit your changes or stash them before you merge.
+Aborting
 
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git branch -M main
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push
+To https://github.com/swetha1818/JavaProject1.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/swetha1818/JavaProject1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git status
 On branch main
-Your branch is based on 'origin/main', but the upstream is gone.
-  (use "git branch --unset-upstream" to fixup)
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
 
-nothing to commit, working tree clean
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Git.txt
 
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git remote add origin https://github.com/swetha1818/JavaProject1.git
-error: remote origin already exists.
 
-C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push -u origin main
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 317 bytes | 158.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git commit -m "Updated git instruction"
+[main e3014c6] Updated git instruction
+ 1 file changed, 98 insertions(+), 1 deletion(-)
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push
 To https://github.com/swetha1818/JavaProject1.git
- * [new branch]      main -> main
-branch 'main' set up to track 'origin/main'.
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/swetha1818/JavaProject1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git pull
+Auto-merging Git.txt
+CONFLICT (content): Merge conflict in Git.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push
+To https://github.com/swetha1818/JavaProject1.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/swetha1818/JavaProject1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>>git commit -m "Updated git"
+'commit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   Git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git add .
+warning: in the working copy of 'Git.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push
+To https://github.com/swetha1818/JavaProject1.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/swetha1818/JavaProject1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git pull origin main --rebase
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   Git.txt
+        new file:   git
+
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git commit -m"Updated git"
+[main e3a2660] Updated git
+
+C:\Users\PRABHAKARAN.V\Tester\JavaProject1>git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.10 KiB | 563.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/swetha1818/JavaProject1.git
+   fb0218d..e3a2660  main -> main
 
 C:\Users\PRABHAKARAN.V\Tester\JavaProject1>
->>>>>>> fb0218d65c33aee34a5b0775057bce2c9d6b4a8b
